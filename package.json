@@ -1,5 +1,21 @@
 {
-  "dependencies": {
-    "git": "^0.1.5"
-  }
+    "name": "namaste_react",
+    "author": "Pargat",
+    "license": "ISC",
+    "version": "1.0.0",
+    "keywords": [],
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "parcel": "^2.9.3",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "browserslist":[
+        "last 2 versions"
+    ]
 }
