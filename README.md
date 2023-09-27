@@ -13,6 +13,9 @@
 - git commit -m "vol-01"
 - git push origin main
 
+# To Change the Orgin:
+- git remote rm origin
+
 
 # Parcel
 - Dev Build
@@ -32,3 +35,12 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+
+# Scripts:
+- scripts: "start": "parcel index.html"           => Command: npm start
+- scripts: "build": "parcel build index.html"     => Command: npm run build
+
+# React Elements:
+- React.createElemet() => Returns an Object (React Element is not HTML)
+- When we render it to the DOM than it becomes HTML
