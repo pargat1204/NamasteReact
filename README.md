@@ -44,3 +44,27 @@
 # React Elements:
 - React.createElemet() => Returns an Object (React Element is not HTML)
 - When we render it to the DOM than it becomes HTML
+
+
+# What is JSX:
+- HTML like or XML like Syntax
+- this is not a valid Javascript
+- Javascript Engines does not understand JSX. Because, they only understands EchmaScript or ES6
+
+# JSX Code is Transpiled:
+- JSX code is transpiled before it reaches to the JS Engine. So, the Browsers can understand the code
+- Transpiling is done by Babel.
+
+# Babel:
+- Babel is a Javascript Compiler
+- Babel transpiled the JSX code, that React can understand
+- JSX code => React.createElement => Javascript Object => HTML element
+
+# Camel Case:
+- All the attributes inside JSX are in Camel Casing
+
+# React Components:
+- Class Based Component => OLD
+- Function Based Component => NEW
+- React Functional Component is just a Normal Javascript Function Which returns some JSX
+- All Functional Components Starts whith Capital Letter
