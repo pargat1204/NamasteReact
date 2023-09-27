@@ -4,7 +4,7 @@
             git branch -M main
             git add .
             git commit -m "volume-01"
-            git remote add origin https://github.com/pargat1204/namasteReact.git
+            git remote add origin https://github.com/pargat1204/NamasteReact.git
             git push origin main
 
         =>  After Updates:
