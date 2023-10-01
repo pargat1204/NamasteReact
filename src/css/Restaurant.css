@@ -1,0 +1,84 @@
+/* Restaurant.css
+.restaurant-container {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Restaurant.css */
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.filter-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+}
+
+.star-button {
+  background-color: #FFD700; /* Gold color for the star button */
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.number {
+  font-size: 16px;
+}
+
+.refresh-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.refresh-btn {
+  background-color: #2196F3; /* Blue color for the refresh button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Add additional styling for Card components if needed */

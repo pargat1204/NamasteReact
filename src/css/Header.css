@@ -1,0 +1,58 @@
+/* Header CSS styles (Header.css) */
+.header {
+    background-color: white;
+    color: #fc8019;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 40px;
+    height: 60px;
+}
+
+.logo > h1 {
+    margin-top: 10px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fc8019;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style for hover effect on navigation links */
+.navigation a:hover {
+    text-decoration: none;
+    transform: translateY(-3px);
+}
